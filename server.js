@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://car-rental-frontend-l520.onrender.com'
 }));
 // API car
 app.use('/api', carRoutes);
