@@ -1,7 +1,9 @@
 import axios from 'axios';
 import {message} from "antd";
 
-axios.defaults.baseURL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8081';
+
+
+axios.defaults.baseURL = process.env.REACT_APP_BACKEND_URL || 'https://car-rental-husp.onrender.com';
 
 
 export const bookCar = (reqObj ) => async dispatch => {
