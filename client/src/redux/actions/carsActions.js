@@ -1,5 +1,6 @@
 import axios from 'axios';
-axios.defaults.baseURL = 'https://car-rental-husp.onrender.com';
+axios.defaults.baseURL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8081';
+
 
 export const getAllCars = () => async dispatch => {
     dispatch({
