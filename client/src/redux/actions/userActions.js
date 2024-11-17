@@ -1,6 +1,6 @@
 import axios from "axios";
 import{message} from "antd";
-axios.defaults.baseURL = 'http://localhost:8081';
+axios.defaults.baseURL = 'https://car-rental-husp.onrender.com';
 
 export const userLogin=(reqObj)=>async dispatch => {
     dispatch({
