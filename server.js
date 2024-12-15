@@ -18,9 +18,6 @@ const port = process.env.PORT || 3031;
 app.use(express.json());
 
 connectDB();
-app.get('/', (req, res) => {
-    res.send('Hello, World!');
-});
 app.use(cors({
     origin: 'https://car-rental-by-quangminh-11e8a026c318.herokuapp.com/'
 }));
