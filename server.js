@@ -27,7 +27,7 @@ app.use(cors({
 // API car
 app.use('/api', carRoutes);
 app.use('/api', uploadRoutes);
-
+//
 // API user
 app.use('/api/users', userRoutes);
 
