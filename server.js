@@ -7,6 +7,8 @@ import uploadRoutes from './Routes/uploadRoute.js';
 import userRoutes from './Routes/userRoute.js';
 import bookRoutes from './Routes/bookingsRoute.js';
 import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
 
 dotenv.config();
