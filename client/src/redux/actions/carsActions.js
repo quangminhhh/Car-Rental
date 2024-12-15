@@ -1,5 +1,5 @@
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:8081';
+axios.defaults.baseURL = 'https://car-rental-by-quangminh-11e8a026c318.herokuapp.com/';
 
 export const getAllCars = () => async dispatch => {
     dispatch({

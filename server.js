@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://car-rental-by-quangminh-11e8a026c318.herokuapp.com/'
 }));
 // API car
 app.use('/api', carRoutes);
