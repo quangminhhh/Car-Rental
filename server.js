@@ -6,7 +6,7 @@ import carRoutes from './Routes/carsRoute.js';
 import uploadRoutes from './Routes/uploadRoute.js';
 import userRoutes from './Routes/userRoute.js';
 import bookRoutes from './Routes/bookingsRoute.js';
-import * as path from "node:path";
+import path from 'path';
 
 
 dotenv.config();
@@ -41,5 +41,5 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+    console.log(`Server is running on port ${port}`);
 });
